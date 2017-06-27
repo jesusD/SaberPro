@@ -12,11 +12,11 @@
     </head>
     <body>
 
-    
+            
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
         
-        <div class="row header no-gutters">
+        <div class="row header ">
             <div class="col-md-4 col-sm-3 col-xs-2 ">
                  <a href="" >
                  <img id="ufps" class="img-fluid rounded float-left"src="image/ufps2.png" alt="logo ufps">
@@ -33,11 +33,12 @@
                 <a ><img id="icfes" class=" img-fluid rounded float-right"  src="image/icfes.png"  alt="logo icfes"></a>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row  ">  
+        <header>
+            @yield('menu')
+        </header>
+
+
+        <div class="row esp_A ">  
            @yield('content')
         </div>
     </div>

@@ -17,3 +17,10 @@ Route::get('/', function () {
 Route::get('/IniciarSesion', function(){
     return view('user.iniciarSesion');
 });
+Route::get('/Estudiante',function(){
+    return view('estudiante.principal');
+});
+Route::get('/Administrador',function(){
+    return view('admin.principal');
+});
+
