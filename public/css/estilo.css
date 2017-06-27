@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: #fff;
+    
+}
+.container-fluid{
+    padding: 0;
+}
+
+
+.header{
+    background: url(../image/header-superior-principal.png)  fixed;
+    background-size: cover; 
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+.marco{
+ border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+ border: 1px solid #000000;
+}
+
+
+
+.btn-danger {
+    background-color: #dd4b39;
+    border-color: #d73925;
+}
+.btn-group-vertical > button{
+    margin-bottom:10px;
+    border-radius:10px !important;
+}
+.resultado{
+    
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 88px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+
+.opciones-respuesta {
+    text-align: center;
+    border: 1px solid #253b6c;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    padding-top: 2.25rem ;
+}
+/*clase para poner lineas bajo los titulos principales*/
+.titulo{
+    border-bottom: 3px solid #aa1916;
+}
+/*Espacio superior entre titulos y contenido*/
+.esp_A{
+    padding-top: 20px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
