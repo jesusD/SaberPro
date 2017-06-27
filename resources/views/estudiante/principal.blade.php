@@ -2,7 +2,7 @@
 @section('title','Estudiante')
 @section('menu')
     @include('estudiante.partials.menu')
-@stop
+@endsection
 @section('content')
 <div class="container marco">
             <h2 class="text-center"></h2>
@@ -47,4 +47,4 @@
          
      </div>
 
-@stop
+@endsection
