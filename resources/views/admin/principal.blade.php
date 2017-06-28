@@ -22,6 +22,9 @@
                             <label for="" ><h6>Archivo a cargar:</h6></label>
                             <input type="file" class="form-control-file">
                         </div>
+                        <div class="form_group">
+                            <label for=""><h6>Descripción de derechos de autor:</h6></label>
+                        </div>
                         <div class="form-group">
                             <label for="" class=""><h6 class="h6">Año:</h6></label>
                                 <input type="date" class="form-control">
@@ -31,6 +34,17 @@
                             <select class="custom-select">
                                  <option value="1">1</option>
                                  <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for=""><h6>Competencia:</h6></label>
+                            <select  class="form-control" id="exampleSelect2">
+                                 <option>Seleccionar</option>
+                                 <option>Razonamiento cuantitativo</option>
+                                 <option>Ingles</option>
+                                 <option>Lectura critica</option>
+                                 <option>Competencias ciudadanas</option>
+
                             </select>
                         </div>
                         <fieldset class="form-control">
