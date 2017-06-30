@@ -16,8 +16,8 @@ class CreatePreguntasTable extends Migration
         Schema::create('preguntas', function (Blueprint $table) {
             $table->increments('id');
             $table->smallInteger('numero_pre');
-            $table->tinyInteger('correcta');
-            $table->string('rango');
+            $table->string('correcta',1);
+            $table->string('rango',1);
             $table->timestamps();
         });
     }

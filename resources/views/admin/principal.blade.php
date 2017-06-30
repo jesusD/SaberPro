@@ -2,10 +2,10 @@
 @section('title','Administrador')
 @section('menu')
     @include('admin.partials.menu')
-@stop
+@endsection
 @section('content')
     
-     
+
    
      
               <div class="col-md-3"></div>
@@ -24,6 +24,7 @@
                         </div>
                         <div class="form_group">
                             <label for=""><h6>Descripción de derechos de autor:</h6></label>
+                            <textarea class="form-control"> </textarea>
                         </div>
                         <div class="form-group">
                             <label for="" class=""><h6 class="h6">Año:</h6></label>
@@ -58,4 +59,4 @@
               </div>
                <div class="col-md-3"></div>
         
-@stop
+@endsection
