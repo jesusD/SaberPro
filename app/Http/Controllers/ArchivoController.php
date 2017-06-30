@@ -6,13 +6,8 @@ use Illuminate\Http\Request;
 
 class ArchivoController extends Controller
 {
-    //archivo controlador
-
-
-
     public function index(){
-
-
-        
+    
+        return view('admin.principal');
     }
 }

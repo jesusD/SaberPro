@@ -20,7 +20,9 @@ Route::get('/IniciarSesion', function(){
 Route::get('/Estudiante',function(){
     return view('estudiante.principal');
 });
+/*
 Route::get('/Administrador',function(){
     return view('admin.principal');
-});
+}) */;
 
+Route::get('Administrador','ArchivoController@index');
